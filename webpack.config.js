@@ -7,10 +7,7 @@ module.exports = () => {
   const config = {
     mode: 'production',
 
-    plugins: [
-      new HtmlWebpackPlugin(),
-      new HTMLInlineCSSWebpackPlugin(),
-    ],
+    plugins: [new HtmlWebpackPlugin(), new HTMLInlineCSSWebpackPlugin()],
   }
 
   return config
